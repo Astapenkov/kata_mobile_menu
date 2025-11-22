@@ -32,18 +32,45 @@ body{
 
 }
 
-.header-icon_burger {
+.header-icon_burger_button {
+    position: relative;
+    bottom: 23px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     margin-left: 24px;
-    margin-top: 23px;
     margin-right: 16.73px;
+    background: #FF3E79;
+    border: none;
+    padding: 0;
+}
+
+.header-icon_burger_button_icon{
+    width: 16px;
+    height: 16px;
+    
 }
 .header-icon_group {
     margin-right: 78.27px;
     margin-top: 18.73px;
 }
-.header-icon_search {
-    margin-top: 23px;
+.header-icon_search_button {
+    position: relative;
+    bottom:23px;
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
 }
+
+.header-icon_search_button_icon {
+    height: 17.06px;
+    width: 17.06px;
+}
+
+
 
 .menu {
     margin-top: 14.27px;
@@ -68,14 +95,21 @@ body{
 .contact {
     margin-top:268px ; 
     padding-left: 24px;
+    
 }
 .contact_email {
     margin-top: 16px;
     margin-bottom: 12px;
 }
+
 .contact_number {
     font-weight: 700;
     margin: 0;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #1B1C21;
 }
 
 .lang {
@@ -127,12 +161,12 @@ body{
 .menu_element a:hover,
 .lang a:hover {
     animation-name: text_color;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
 
 .contact a:hover {
-    opacity: 0.5;
+    opacity: 0.4;
     transition: opacity 1s;
     
 }
